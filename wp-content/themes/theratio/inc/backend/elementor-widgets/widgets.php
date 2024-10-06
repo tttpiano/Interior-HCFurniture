@@ -1,0 +1,37 @@
+<?php
+
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/heading.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/button.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/video-button.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/client-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/image-gallery.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/icon-box-1.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/icon-box-2.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/icon-box-3.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/service-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/portfolio-filter.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/portfolio-filter-metro.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/portfolio-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/counter.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/testimonial-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/testimonial-carousel-2.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/testimonial-carousel-3.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/accordions.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/tabs.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/progress-bars.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/flip-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/message-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/contact-info.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/contact-form7.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/pricing-table.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/post-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/post-grid.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/process-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/features-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/team.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/team-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/image-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/image-box-2.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/countdown.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/before-after.php' );
+require_once( get_template_directory() . '/inc/backend/elementor-widgets/social-share.php' );

@@ -1,0 +1,59 @@
+30/04/2021 - Version: 1.2.0:
+
+- Added: image-box-2.php, testimonial-carousel-3.php
+- Files Updated: style.css
+
+16/03/2021 - Version: 1.1.4.3:
+- Removed: Exclude custom post type header builder and footer builder from search result page
+- Changed: ajax load cart count
+- Files Updated: elementor.php, cart.php, woocommerce.php, style.css
+
+12/03/2021 - Version: 1.1.4.2:
+- Updated: Revolution Slider version 6.4.3
+- Added: Option set the Blog Grid or Blog List as default for the blog and for the archive pages
+- Fixed: Blog post slider stop work
+- Files Updated: functions.php, customizer.php, post-grid.php, template-functions.php, index.php, search.php, archive.php, style.css
+
+10/03/2021 - Version: 1.1.4.1:
+- Fixed: Fatal error: Uncaught Error: Call to undefined function is_plugin_active() in functions.php file
+- Files Updated: functions.php, style.css
+
+Version: 1.1.4:
+- Updated: Revolution Slider version 6.4.2
+- Updated: Compatible with WPML
+- Updated: Theme compatible with Elementor Version 3.1.3
+- Removed: Remove Swiper library in functions.php
+- Removed: Remove output default the script tag of Google Analytics, Now you will need to enter the script tag as well when copying the Google Analytics code.
+- Fixed: $repeater->get_controls()
+- Files Updated: functions.php, template-functions.php, plugin-requires.php, elementor.js, style.css
+
+Update 1:
+	Add New: Mega Menu,  Widget Before-After, Widget List Menus, Home 7,
+	Add New File: before-after.php, list-menu-item.php, before-after.js, 
+	Fixed: Some bugs on the demo theme, some bugs in the code, etc...
+	Improved: Improving some spacing of the text on the demo, functional few widgets
+	Update: Icon of Widget Accordions, 
+	File Update: elementor.js, script.js, style.css, accordions.php, functions.php, elementor.php, menu.php, elementor-widgets/widgets.php, header-widgets/widgets.php
+	
+Update 2:
+	Update widget process box ( Change field Icon Class to Icon Font ).
+	Update css for one page
+	Update file header-builder.php , content-header.php, content-vheader.php
+	Update Plugin OT Mega Menu -> update file script.js
+
+Update 3:
+	Add css active link menu in Side Navigation
+	Fix change Typography for theme
+	Fix bug child theme
+	Improved: option customizer for page 404, footer, 
+	Add option for widget post-carousel, post-grid, widget button
+	Update file: menu.php, style.css, customizer.php, color.php, template-function.php, post-carousel.php, post-grid.php, 404.php, header-builder.php, footer-builder.php, button.php, header-default.php, header-mobile.php, function.php
+	Remove file: content-404.php, content-footer.php, 
+
+Update 4:
+	1. Icon SVG in widget Flip Box ( 1 số svg có chiều cao quá lớn )
+	2. Lỗi không nhận css background khi chọn color menu sticky do class yếu hơn 
+	3. Update prefix 'theratio' for widget Product search 
+	4. Thêm style lightbox cho Portfolio
+	5. Lỗi megamenu active trong multisite -> update file: header-widgets/menu.php
+	Update file: elementor.php, header-widgets/menu.php, product-searchform.php, portfolio-filter.php, portfolio-filter-metro.php, elementor.js, myloadmore.js, content-project.php, content-project.php, style.css

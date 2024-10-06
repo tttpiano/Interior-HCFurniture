@@ -1,0 +1,100 @@
+/*
+Theme Name: THERATIO RTL
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.main-navigation ul>li.menu-item-has-children>a, .main-navigation ul>li.is-mega-menu>a{
+    padding-left: 17px;
+    padding-right: 0;
+}
+.main-navigation ul>li.menu-item-has-children>a:after, .main-navigation ul>li.is-mega-menu>a:after{
+    right: auto;
+    left: 1px;
+}
+.main-navigation ul li li a {
+    text-align: right;
+}
+.main-navigation:not(.no-line) ul li li a:before{
+    right: 0;
+}
+.main-navigation ul li li a:hover, .main-navigation ul ul li.current-menu-item>a, .main-navigation ul ul li.current-menu-ancestor>a{
+    padding-left: 0;
+    padding-right: 40px;
+}
+.main-navigation ul li ul.sub-menu {
+    left: auto;
+    right: -34px;
+}
+.main-navigation ul li ul ul.sub-menu {
+    left: auto;
+    right: calc(100% + 2px);
+}
+.main-navigation ul > li li.menu-item-has-children > a:after {
+    right: auto;
+    left: 0px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.projects-grid .projects-box .portfolio-info {
+    left: auto;
+    right: 0px;
+}
+.projects-grid.style-2 .portfolio-info .portfolio-info-inner {
+    text-align: right;
+}
+.ot-progress .progress-bar:after {
+    right: auto;
+    left: 0px;
+    -webkit-transform: translateY(-50%) skewX(30deg);
+    -ms-transform: translateY(-50%) skewX(30deg);
+    transform: translateY(-50%) skewX(30deg);
+}
+.ot-progress .ppercent {
+    right: auto;
+    left: -11px;
+}
+.f-left {
+  float: right;
+}
+.f-right {
+  float: left;
+}
+.post-box .entry-meta > span:before {left: auto;right: 0px;}
+.post-box .entry-meta > span {
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-left: 10px;
+  padding-right: 25px;
+}
+.post-box .entry-meta > span:first-child {
+  padding-right: 0px;
+}
+.contact-info i{
+    float: right;
+}
+.contact-info .info-text{
+    padding-left: 0;
+    padding-right: 50px;
+}
+@media only screen and (min-width: 1025px){
+    .site-header-vertical{
+        right: 0;
+        left: auto;
+    }
+    .header-vertical .site-content, 
+    .header-vertical .site-footer{
+        margin-left: 0;
+        margin-right: 340px;
+    }
+}
